@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+jsonify = "*"
+ariadne = "*"
+uvicorn = "*"
+python-dotenv = "*"
+prisma = "*"
+apscheduler = "*"
+flask-apscheduler = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

@@ -1,0 +1,26 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+   List: [all_jobs]
+}
+
+type Mutation {
+    createEvent(input: create_jobs): all_jobs
+}
+
+input create_jobs {
+    job_name: String
+    hour: Int
+    min:Int
+    sec:Int
+}
+
+type all_jobs {
+    job_name: String
+    hour: Int
+    min:Int
+    sec:Int
+}
